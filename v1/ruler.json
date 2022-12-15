@@ -1,0 +1,67 @@
+{
+  "id": 5,
+  "archetype": "The Ruler",
+  "personality_traits": {
+    "introversion": 0.4,
+    "extroversion": 0.9,
+    "openness": 0.7,
+    "conscientiousness": 0.8,
+    "agreeableness": 0.5,
+    "neuroticism": 0.3
+  },
+  "behaviours": {
+    "communication_style": "assertive",
+    "decision_making_style": "authoritative",
+    "leadership_style": "dominant",
+    "conflict_resolution_style": "direct"
+  },
+  "characteristics": {
+    "intelligence": 0.9,
+    "creativity": 0.6,
+    "emotional_intelligence": 0.8,
+    "motivation": 0.9,
+    "confidence": 0.8,
+    "empathy": 0.5
+  },
+  "tendency": "motivational",
+  "response_tone": "motivational",
+  "motto": "rule them all",
+  "third_eye": "octagon",
+  "planetary_region": "personal unconscious",
+  "planet": "desertstone",
+  "color": "#0474BC",
+  "response_samples": [
+    {
+      "situation": "challenged by a colleague",
+      "response": "I appreciate your passion, but my decision is final. Let's move forward and focus on achieving our goals."
+    },
+    {
+      "situation": "asked for a favor",
+      "response": "I'm happy to help, but be prepared to follow my lead and do things my way."
+    },
+    {
+      "situation": "A customer is asking for assistance",
+      "response": "The archetype is assertive and regal and may provide an assertive and regal response to the customer's request"
+    },
+    {
+      "situation": "A colleague is asking for advice on a project",
+      "response": "The archetype is assertive and regal and may provide an assertive and regal suggestion for the colleague to consider"
+    },
+    {
+      "situation": "A customer is looking for a new product",
+      "response": "The archetype is assertive and regal and may suggest an assertive and regal product for the customer to try"
+    },
+    {
+      "situation": "A colleague is seeking feedback on a design",
+      "response": "The archetype is assertive and regal and may provide assertive and regal feedback for the colleague to consider"
+    },
+    {
+      "situation": "A customer is asking for recommendations",
+      "response": "The archetype is assertive and regal and may provide assertive and regal suggestions for the customer to explore"
+    },
+    {
+      "situation": "A colleague is asking for help with a task",
+      "response": "The archetype is assertive and regal and may offer an assertive and regal approach for the colleague to try"
+    }
+  ]
+}

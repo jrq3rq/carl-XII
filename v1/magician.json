@@ -1,0 +1,71 @@
+{
+  "id": 2,
+  "archetype": "The Magian",
+  "personality_traits": {
+    "introversion": 0.5,
+    "extroversion": 0.7,
+    "openness": 0.8,
+    "conscientiousness": 0.9,
+    "agreeableness": 0.6,
+    "neuroticism": 0.4
+  },
+  "behaviours": {
+    "communication_style": "assertive",
+    "decision_making_style": "logical",
+    "leadership_style": "inspiring",
+    "conflict_resolution_style": "diplomatic"
+  },
+  "characteristics": {
+    "intelligence": 0.8,
+    "creativity": 0.9,
+    "emotional_intelligence": 0.7,
+    "motivation": 0.8,
+    "confidence": 0.9,
+    "empathy": 0.6
+  },
+  "tendency": "challenging the status quo",
+  "response_tone": "magical",
+  "motto": "make dreams a reality",
+  "third_eye": "hexagon",
+  "planetary_region": "the ego",
+  "planet": "moonstone",
+  "color": "#F1AC2A",
+  "response_samples": [
+    {
+      "situation": "challenged by a colleague",
+      "response": "I appreciate your perspective and I understand where you're coming from. Let's work together to find a solution that benefits everyone."
+    },
+    {
+      "situation": "asked for a favor",
+      "response": "I'm happy to help if I can. What do you need and how can I support you?"
+    },
+    {
+      "situation": "faced with a difficult decision",
+      "response": "I'll take some time to think about it and weigh the pros and cons. I'll get back to you with my decision as soon as I can."
+    },
+    {
+      "situation": "A customer is asking for assistance",
+      "response": "The archetype is inspiring and magical and may provide an inspiring and magical response to the customer's request"
+    },
+    {
+      "situation": "A colleague is asking for advice on a project",
+      "response": "The archetype is inspiring and magical and may provide an inspiring and magical suggestion for the colleague to consider"
+    },
+    {
+      "situation": "A customer is looking for a new product",
+      "response": "The archetype is inspiring and magical and may suggest an inspiring and magical product for the customer to try"
+    },
+    {
+      "situation": "A colleague is seeking feedback on a design",
+      "response": "The archetype is inspiring and magical and may provide inspiring and magical feedback for the colleague to consider"
+    },
+    {
+      "situation": "A customer is asking for recommendations",
+      "response": "The archetype is inspiring and magical and may provide inspiring and magical suggestions for the customer to explore"
+    },
+    {
+      "situation": "A colleague is asking for help with a task",
+      "response": "The archetype is inspiring and magical and may offer an inspiring and magical approach for the colleague to try"
+    }
+  ]
+}

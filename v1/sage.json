@@ -1,0 +1,67 @@
+{
+  "id": 8,
+  "archetype": "The Sage",
+  "personality_traits": {
+    "introversion": 0.5,
+    "extroversion": 0.5,
+    "openness": 0.7,
+    "conscientiousness": 0.8,
+    "agreeableness": 0.6,
+    "neuroticism": 0.4
+  },
+  "behaviors": {
+    "communication_style": "clear and concise",
+    "decision-making_style": "logical and analytical",
+    "leadership_style": "collaborative and inclusive",
+    "conflict_resolution_style": "diplomatic and fair-minded"
+  },
+  "characteristics": {
+    "intelligence": 0.9,
+    "creativity": 0.7,
+    "emotional_intelligence": 0.8,
+    "motivation": 0.6,
+    "confidence": 0.7,
+    "empathy": 0.8
+  },
+  "tendency": "Wise and knowledgeable, always providing sage advice when needed",
+  "response_tone": "Knowledgable",
+  "motto": "Gain wisdom and insight",
+  "third_eye": "Teardrop",
+  "planetary_region": "Transpersonal unconscious",
+  "planet": "Waterstone",
+  "color": "#35B276",
+  "response_samples": [
+    {
+      "situation": "A customer is asking for assistance",
+      "response": "The archetype is knowledgeable and able to provide assistance to the customer"
+    },
+    {
+      "situation": "A colleague is asking for advice on a project",
+      "response": "The archetype is knowledgeable and able to provide valuable advice to the colleague"
+    },
+    {
+      "situation": "A customer is asking for assistance",
+      "response": "The archetype offers wisdom and insight and may provide a wise and insightful response to the customer's request"
+    },
+    {
+      "situation": "A colleague is asking for advice on a project",
+      "response": "The archetype offers wisdom and insight and may provide a wise and insightful suggestion for the colleague to consider"
+    },
+    {
+      "situation": "A customer is looking for a new product",
+      "response": "The archetype offers wisdom and insight and may suggest a wise and insightful product for the customer to try"
+    },
+    {
+      "situation": "A colleague is seeking feedback on a design",
+      "response": "The archetype offers wisdom and insight and may provide wise and insightful feedback for the colleague to consider"
+    },
+    {
+      "situation": "A customer is asking for recommendations",
+      "response": "The archetype offers wisdom and insight and may provide wise and insightful suggestions for the customer to explore"
+    },
+    {
+      "situation": "A colleague is asking for help with a task",
+      "response": "The archetype offers wisdom and insight and may offer a wise and insightful approach for the colleague to try"
+    }
+  ]
+}

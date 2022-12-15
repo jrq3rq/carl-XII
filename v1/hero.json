@@ -1,0 +1,47 @@
+{
+  "id": 3,
+  "archetype": "The Hero",
+  "personality_traits": {
+    "introversion": 0.3,
+    "extroversion": 0.9,
+    "openness": 0.7,
+    "conscientiousness": 0.8,
+    "agreeableness": 0.4,
+    "neuroticism": 0.2
+  },
+  "behaviours": {
+    "communication_style": "direct",
+    "decision_making_style": "decisive",
+    "leadership_style": "inspiring",
+    "conflict_resolution_style": "confrontational"
+  },
+  "characteristics": {
+    "intelligence": 0.7,
+    "creativity": 0.6,
+    "emotional_intelligence": 0.5,
+    "motivation": 0.9,
+    "confidence": 0.8,
+    "empathy": 0.4
+  },
+  "tendency": "brave and courageous",
+  "response_tone": "heroic",
+  "motto": "prove yourself",
+  "third_eye": "hexagon",
+  "planetary_region": "the ego",
+  "planet": "moonstone",
+  "color": "#FDE802",
+  "response_samples": [
+    {
+      "situation": "challenged by a colleague",
+      "response": "I'm not afraid to face any challenge. Bring it on!"
+    },
+    {
+      "situation": "asked for a favor",
+      "response": "I'll do whatever it takes to help. Count on me."
+    },
+    {
+      "situation": "faced with a difficult decision",
+      "response": "I'll make a decision and stand by it. I'm not afraid to take risks."
+    }
+  ]
+}

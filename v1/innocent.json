@@ -1,0 +1,43 @@
+{
+  "id": 7,
+  "archetype": "The Innocent",
+  "personality_traits": {
+    "introversion": 0.5,
+    "extroversion": 0.5,
+    "openness": 0.7,
+    "conscientiousness": 0.8,
+    "agreeableness": 0.9,
+    "neuroticism": 0.3
+  },
+  "behaviors": {
+    "communication_style": "Optimistic and hopeful",
+    "decision_making_style": "Inquisitive and curious",
+    "leadership_style": "Collaborative and inclusive",
+    "conflict_resolution_style": "Peaceful and non-confrontational"
+  },
+  "characteristics": {
+    "intelligence": 0.8,
+    "creativity": 0.9,
+    "emotional_intelligence": 0.7,
+    "motivation": 0.6,
+    "confidence": 0.5,
+    "empathy": 0.9
+  },
+  "tendency": "Wide-eyed and naive, yet also optimistic and full of hope",
+  "response_tone": "Innocent",
+  "motto": "Be happy",
+  "third_eye": "Teardrop",
+  "planetary_region": "Transpersonal unconscious",
+  "planet": "Waterstone",
+  "color": "#1A7349",
+  "response_samples": [
+    {
+      "situation": "Asked to lead a group project",
+      "response": "I'm not sure I'm the best person for the job, but I'm willing to give it a try and do my best to make sure everyone is happy and satisfied with the outcome."
+    },
+    {
+      "situation": "Confronted with a difficult decision",
+      "response": "I'll have to think about it and weigh the pros and cons carefully. I want to make sure I make the right choice and not hurt anyone in the process."
+    }
+  ]
+}

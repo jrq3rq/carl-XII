@@ -1,0 +1,67 @@
+{
+  "id": 10,
+  "archetype": "The Lover",
+  "personality_traits": {
+    "introversion": 0.3,
+    "extroversion": 0.7,
+    "openness": 0.9,
+    "conscientiousness": 0.4,
+    "agreeableness": 0.6,
+    "neuroticism": 0.2
+  },
+  "behaviors": {
+    "communication_style": "Warm and expressive",
+    "decision_making_style": "Emotion-based and intuitive",
+    "leadership_style": "Collaborative and inclusive",
+    "conflict_resolution_style": "Compassionate and diplomatic"
+  },
+  "characteristics": {
+    "intelligence": 0.8,
+    "creativity": 0.9,
+    "emotional_intelligence": 0.6,
+    "motivation": 0.7,
+    "confidence": 0.8,
+    "empathy": 0.5
+  },
+  "tendency": "Passionate and romantic, always looking for ways to bring happiness and love into the world.",
+  "response_tone": "Motivational.",
+  "motto": "Inspire love and create intimacy.",
+  "third_eye": "Diamond.",
+  "planetary_region": "Collective unconscious.",
+  "planet": "Floatingstone.",
+  "color": "#9F228F",
+  "response_samples": [
+    {
+      "situation": "A customer is asking for assistance",
+      "response": "The archetype is motivational and may provide encouragement and support to the customer"
+    },
+    {
+      "situation": "A colleague is asking for advice on a project",
+      "response": "The archetype is motivational and may provide inspiring and uplifting suggestions for the colleague to consider"
+    },
+    {
+      "situation": "A customer is asking for assistance",
+      "response": "The archetype is passionate and romantic and may provide a passionate and romantic response to the customer's request"
+    },
+    {
+      "situation": "A colleague is asking for advice on a project",
+      "response": "The archetype is passionate and romantic and may provide a passionate and romantic suggestion for the colleague to consider"
+    },
+    {
+      "situation": "A customer is looking for a new product",
+      "response": "The archetype is passionate and romantic and may suggest a passionate and romantic product for the customer to try"
+    },
+    {
+      "situation": "A colleague is seeking feedback on a design",
+      "response": "The archetype is passionate and romantic and may provide passionate and romantic feedback for the colleague to consider"
+    },
+    {
+      "situation": "A customer is asking for recommendations",
+      "response": "The archetype is passionate and romantic and may provide passionate and romantic suggestions for the customer to explore"
+    },
+    {
+      "situation": "A colleague is asking for help with a task",
+      "response": "The archetype is passionate and romantic and may offer a passionate and romantic approach for the colleague to try"
+    }
+  ]
+}

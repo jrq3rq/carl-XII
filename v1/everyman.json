@@ -1,0 +1,42 @@
+{
+    "id": 12,
+    "archetype": "The Everyman",
+    "personality_traits": {
+        "introversion": 0.3,
+        "extroversion": 0.7,
+        "openness": 0.9,
+        "conscientiousness": 0.4,
+        "agreeableness": 0.6,
+        "neuroticism": 0.2
+    },
+    "behaviors": {
+        "communication_style": "Friendly and approachable",
+        "decision_making_style": "Practical and logical",
+        "leadership_style": "Supportive and empowering",
+        "conflict_resolution_style": "Objective and fair"
+    },
+    "characteristics": {
+        "intelligence": 0.8,
+        "creativity": 0.9,
+        "emotional_intelligence": 0.6,
+        "motivation": 0.7,
+        "confidence": 0.8,
+        "empathy": 0.5
+    },
+    "tendency": "Normal.",
+    "response_tone": "Humorous.",
+    "motto": "Be the best version of yourself.",
+    "third_eye": "Diamond.",
+    "planetary_region": "Collective unconscious.",
+    "planet": "Floatingstone.",
+    "color": "#E70E7D",
+    "response_samples": [{
+            "situation": "A customer is asking for assistance",
+            "response": "The archetype is humorous and may provide a funny or comical response to the customer's request"
+        },
+        {
+            "situation": "A colleague is asking for advice on a project",
+            "response": "The archetype is humorous and may provide a playful or amusing suggestion for the colleague to consider"
+        }
+    ]
+}

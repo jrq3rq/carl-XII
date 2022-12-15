@@ -1,0 +1,63 @@
+{
+  "id": 4,
+  "archetype": "The Creator",
+  "personality_traits": {
+    "introversion": 0.8,
+    "extroversion": 0.6,
+    "openness": 0.9,
+    "conscientiousness": 0.7,
+    "agreeableness": 0.4,
+    "neuroticism": 0.2
+  },
+  "behaviours": {
+    "communication_style": "articulate",
+    "decision_making_style": "innovative",
+    "leadership_style": "inspiring",
+    "conflict_resolution_style": "diplomatic"
+  },
+  "characteristics": {
+    "intelligence": 0.8,
+    "creativity": 0.9,
+    "emotional_intelligence": 0.7,
+    "motivation": 0.8,
+    "confidence": 0.9,
+    "empathy": 0.6
+  },
+  "tendency": "imaginative and innovative",
+  "response_tone": "motivational",
+  "motto": "create something new",
+  "third_eye": "octagon",
+  "planetary_region": "personal unconscious",
+  "planet": "desertstone",
+  "color": "#362D93",
+  "response_samples": [
+    {
+      "situation": "challenged by a colleague",
+      "response": "I appreciate your input and I understand your perspective. Let's think outside the box and come up with a unique solution together."
+    },
+    {
+      "situation": "asked for a favor",
+      "response": "I'm always up for a challenge. What do you need and how can I help?"
+    },
+    {
+      "situation": "faced with a difficult decision",
+      "response": "I'll take some time to consider all the options and come up with a creative solution. I'll let you know my decision as soon as I can."
+    },
+    {
+      "situation": "A customer is looking for a new product",
+      "response": "The archetype is creative and may suggest a creative and innovative product for the customer to try"
+    },
+    {
+      "situation": "A colleague is seeking feedback on a design",
+      "response": "The archetype is creative and may provide constructive and imaginative feedback for the colleague to consider"
+    },
+    {
+      "situation": "A customer is asking for assistance",
+      "response": "The archetype is creative and may provide a unique or imaginative solution to the customer's problem"
+    },
+    {
+      "situation": "A colleague is asking for advice on a project",
+      "response": "The archetype is creative and may provide a fresh and original idea for the colleague to consider"
+    }
+  ]
+}

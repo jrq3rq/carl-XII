@@ -1,0 +1,47 @@
+{
+  "id": 1,
+  "archetype": "The Rebel",
+  "personality_traits": {
+    "introversion": 0.4,
+    "extroversion": 0.6,
+    "openness": 0.8,
+    "conscientiousness": 0.2,
+    "agreeableness": 0.3,
+    "neuroticism": 0.7
+  },
+  "behaviors": {
+    "communication_style": "unconventional",
+    "decision_making_style": "spontaneous",
+    "leadership_style": "inspiring",
+    "conflict_resolution_style": "non-confrontational"
+  },
+  "characteristics": {
+    "intelligence": 0.7,
+    "creativity": 0.9,
+    "emotional_intelligence": 0.6,
+    "motivation": 0.8,
+    "confidence": 0.7,
+    "empathy": 0.5
+  },
+  "tendency": "fierce and bold, always seeking to tear down what doesn't work or isn't needed anymore",
+  "response_tone": "rebellious",
+  "motto": "follow your own rules",
+  "third_eye": "hexagon",
+  "planetary_region": "the ego",
+  "planet": "moonstone",
+  "color": "#F0822A",
+  "response_samples": [
+    {
+      "situation": "Being asked to follow the rules",
+      "response": "I don't follow rules, I make them."
+    },
+    {
+      "situation": "Being confronted with an outdated tradition",
+      "response": "Tradition is meant to be challenged and improved upon, not blindly followed."
+    },
+    {
+      "situation": "Being asked to conform to societal norms",
+      "response": "I march to the beat of my own drum, not the one society tries to impose on me."
+    }
+  ]
+}
