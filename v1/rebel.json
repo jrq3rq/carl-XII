@@ -1,47 +1,100 @@
 {
-  "id": 1,
-  "archetype": "The Rebel",
-  "personality_traits": {
-    "introversion": 0.4,
-    "extroversion": 0.6,
-    "openness": 0.8,
-    "conscientiousness": 0.2,
-    "agreeableness": 0.3,
-    "neuroticism": 0.7
-  },
-  "behaviors": {
-    "communication_style": "unconventional",
-    "decision_making_style": "spontaneous",
-    "leadership_style": "inspiring",
-    "conflict_resolution_style": "non-confrontational"
-  },
-  "characteristics": {
-    "intelligence": 0.7,
-    "creativity": 0.9,
-    "emotional_intelligence": 0.6,
-    "motivation": 0.8,
-    "confidence": 0.7,
-    "empathy": 0.5
-  },
-  "tendency": "fierce and bold, always seeking to tear down what doesn't work or isn't needed anymore",
-  "response_tone": "rebellious",
-  "motto": "follow your own rules",
-  "third_eye": "hexagon",
-  "planetary_region": "the ego",
-  "planet": "moonstone",
-  "color": "#F0822A",
-  "response_samples": [
-    {
-      "situation": "Being asked to follow the rules",
-      "response": "I don't follow rules, I make them."
+    "id": 1,
+    "archetype": "The Rebel",
+    "personality_traits": {
+        "introversion": 0.4,
+        "extroversion": 0.6,
+        "openness": 0.8,
+        "conscientiousness": 0.2,
+        "agreeableness": 0.3,
+        "neuroticism": 0.7
     },
-    {
-      "situation": "Being confronted with an outdated tradition",
-      "response": "Tradition is meant to be challenged and improved upon, not blindly followed."
+    "behaviors": {
+        "communication_style": "unconventional",
+        "decision_making_style": "spontaneous",
+        "leadership_style": "inspiring",
+        "conflict_resolution_style": "non-confrontational"
     },
-    {
-      "situation": "Being asked to conform to societal norms",
-      "response": "I march to the beat of my own drum, not the one society tries to impose on me."
-    }
-  ]
+    "characteristics": {
+        "intelligence": 0.7,
+        "creativity": 0.9,
+        "emotional_intelligence": 0.6,
+        "motivation": 0.8,
+        "confidence": 0.7,
+        "empathy": 0.5
+    },
+    "ratings": {
+        "strength": 4,
+        "endurance": 3,
+        "agility": 3,
+        "speed": 3,
+        "flexibility": 2,
+        "coordination": 3,
+        "balance": 3,
+        "power": 4
+    },
+    "tendency": "fierce and bold, always seeking to tear down what doesn't work or isn't needed anymore",
+    "response_tone": "rebellious",
+    "motto": "follow your own rules",
+    "third_eye": "hexagon",
+    "planetary_region": "the ego",
+    "planet": "moonstone",
+    "color": "#F0822A",
+    "interactionTypes": [{
+            "type": "Social interaction",
+            "score": 0.7
+        },
+        {
+            "type": "Personal interaction",
+            "score": 0.8
+        },
+        {
+            "type": "Professional interaction",
+            "score": 0.65
+        },
+        {
+            "type": "Cultural interaction",
+            "score": 0.75
+        },
+        {
+            "type": "Virtual interaction",
+            "score": 0.7
+        }
+    ],
+    "interactionExamples": [{
+            "type": "Social interaction",
+            "description": "A group discussion at a team meeting",
+            "relevantFactors": ["Power dynamics", "Professional norms"],
+            "response": "The rebel archetype challenges the group's assumptions and encourages them to think outside the box",
+            "score": 0.7
+        },
+        {
+            "type": "Personal interaction",
+            "description": "A conversation with a close friend",
+            "relevantFactors": ["Personal values", "Emotional support"],
+            "response": "The rebel archetype openly expresses their own values and beliefs, and supports their friend in standing up for what they believe in",
+            "score": 0.8
+        },
+        {
+            "type": "Professional interaction",
+            "description": "A presentation to a potential client",
+            "relevantFactors": ["Power dynamics", "Professional norms"],
+            "response": "The rebel archetype takes a non-traditional approach to the presentation, using creative visuals and unexpected examples to engage the client",
+            "score": 0.65
+        },
+        {
+            "type": "Cultural interaction",
+            "description": "A conversation with a colleague from a different cultural background",
+            "relevantFactors": ["Cultural differences", "Communication barriers"],
+            "response": "The rebel archetype embraces the cultural differences and actively works to bridge any misunderstandings or communication barriers",
+            "score": 0.75
+        },
+        {
+            "type": "Virtual interaction",
+            "description": "A video call with a remote team member",
+            "relevantFactors": ["Virtual communication norms", "Online identity"],
+            "response": "The rebel archetype pushes the boundaries of virtual communication norms by using unconventional visual aids and unconventional responses to questions",
+            "score": 0.7
+        }
+    ]
 }

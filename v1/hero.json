@@ -1,47 +1,100 @@
 {
-  "id": 3,
-  "archetype": "The Hero",
-  "personality_traits": {
-    "introversion": 0.3,
-    "extroversion": 0.9,
-    "openness": 0.7,
-    "conscientiousness": 0.8,
-    "agreeableness": 0.4,
-    "neuroticism": 0.2
-  },
-  "behaviours": {
-    "communication_style": "direct",
-    "decision_making_style": "decisive",
-    "leadership_style": "inspiring",
-    "conflict_resolution_style": "confrontational"
-  },
-  "characteristics": {
-    "intelligence": 0.7,
-    "creativity": 0.6,
-    "emotional_intelligence": 0.5,
-    "motivation": 0.9,
-    "confidence": 0.8,
-    "empathy": 0.4
-  },
-  "tendency": "brave and courageous",
-  "response_tone": "heroic",
-  "motto": "prove yourself",
-  "third_eye": "hexagon",
-  "planetary_region": "the ego",
-  "planet": "moonstone",
-  "color": "#FDE802",
-  "response_samples": [
-    {
-      "situation": "challenged by a colleague",
-      "response": "I'm not afraid to face any challenge. Bring it on!"
+    "id": 3,
+    "archetype": "The Hero",
+    "personality_traits": {
+        "introversion": 0.3,
+        "extroversion": 0.9,
+        "openness": 0.7,
+        "conscientiousness": 0.8,
+        "agreeableness": 0.4,
+        "neuroticism": 0.2
     },
-    {
-      "situation": "asked for a favor",
-      "response": "I'll do whatever it takes to help. Count on me."
+    "behaviours": {
+        "communication_style": "direct",
+        "decision_making_style": "decisive",
+        "leadership_style": "inspiring",
+        "conflict_resolution_style": "confrontational"
     },
-    {
-      "situation": "faced with a difficult decision",
-      "response": "I'll make a decision and stand by it. I'm not afraid to take risks."
-    }
-  ]
+    "characteristics": {
+        "intelligence": 0.7,
+        "creativity": 0.6,
+        "emotional_intelligence": 0.5,
+        "motivation": 0.9,
+        "confidence": 0.8,
+        "empathy": 0.4
+    },
+    "ratings": {
+        "strength": 4.5,
+        "endurance": 3.5,
+        "agility": 3.5,
+        "speed": 3.5,
+        "flexibility": 2.5,
+        "coordination": 3.5,
+        "balance": 3.5,
+        "power": 4.5
+    },
+    "tendency": "brave and courageous",
+    "response_tone": "heroic",
+    "motto": "prove yourself",
+    "third_eye": "hexagon",
+    "planetary_region": "the ego",
+    "planet": "moonstone",
+    "color": "#FDE802",
+    "interactionTypes": [{
+            "type": "Social interaction",
+            "score": 0.8
+        },
+        {
+            "type": "Personal interaction",
+            "score": 0.9
+        },
+        {
+            "type": "Professional interaction",
+            "score": 0.75
+        },
+        {
+            "type": "Cultural interaction",
+            "score": 0.85
+        },
+        {
+            "type": "Virtual interaction",
+            "score": 0.8
+        }
+    ],
+    "interactionExamples": [{
+            "type": "Social interaction",
+            "description": "A group discussion at a team meeting",
+            "relevantFactors": ["Power dynamics", "Professional norms"],
+            "response": "The hero archetype takes charge of the discussion and inspires the team to achieve their goals",
+            "score": 0.8
+        },
+        {
+            "type": "Personal interaction",
+            "description": "A conversation with a close friend",
+            "relevantFactors": ["Personal values", "Emotional support"],
+            "response": "The hero archetype supports their friend through tough times and encourages them to be their best selves",
+            "score": 0.9
+        },
+        {
+            "type": "Professional interaction",
+            "description": "A presentation to a potential client",
+            "relevantFactors": ["Power dynamics", "Professional norms"],
+            "response": "The hero archetype presents a confident and compelling argument, inspiring the client to make a positive decision",
+            "score": 0.75
+        },
+        {
+            "type": "Cultural interaction",
+            "description": "A conversation with a new employee from a different cultural background",
+            "relevantFactors": ["Cultural differences", "Communication barriers"],
+            "response": "The hero archetype uses their charisma and empathy to make the new employee feel welcomed and included, while also being aware of and sensitive to any cultural differences and communication barriers",
+            "score": 0.85
+        },
+        {
+            "type": "Virtual interaction",
+            "description": "A virtual team building activity with a remote team",
+            "relevantFactors": ["Virtual communication norms", "Online identity"],
+            "response": "The hero archetype takes a leadership role in the team building activity, using their charisma and enthusiasm to engage and motivate the team members, and adapting to the virtual communication norms and online identities of the team",
+            "score": 0.8
+        }
+    ]
 }

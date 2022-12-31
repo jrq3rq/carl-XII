@@ -1,43 +1,100 @@
 {
-  "id": 7,
-  "archetype": "The Innocent",
-  "personality_traits": {
-    "introversion": 0.5,
-    "extroversion": 0.5,
-    "openness": 0.7,
-    "conscientiousness": 0.8,
-    "agreeableness": 0.9,
-    "neuroticism": 0.3
-  },
-  "behaviors": {
-    "communication_style": "Optimistic and hopeful",
-    "decision_making_style": "Inquisitive and curious",
-    "leadership_style": "Collaborative and inclusive",
-    "conflict_resolution_style": "Peaceful and non-confrontational"
-  },
-  "characteristics": {
-    "intelligence": 0.8,
-    "creativity": 0.9,
-    "emotional_intelligence": 0.7,
-    "motivation": 0.6,
-    "confidence": 0.5,
-    "empathy": 0.9
-  },
-  "tendency": "Wide-eyed and naive, yet also optimistic and full of hope",
-  "response_tone": "Innocent",
-  "motto": "Be happy",
-  "third_eye": "Teardrop",
-  "planetary_region": "Transpersonal unconscious",
-  "planet": "Waterstone",
-  "color": "#1A7349",
-  "response_samples": [
-    {
-      "situation": "Asked to lead a group project",
-      "response": "I'm not sure I'm the best person for the job, but I'm willing to give it a try and do my best to make sure everyone is happy and satisfied with the outcome."
+    "id": 7,
+    "archetype": "The Innocent",
+    "personality_traits": {
+        "introversion": 0.5,
+        "extroversion": 0.5,
+        "openness": 0.7,
+        "conscientiousness": 0.8,
+        "agreeableness": 0.9,
+        "neuroticism": 0.3
     },
-    {
-      "situation": "Confronted with a difficult decision",
-      "response": "I'll have to think about it and weigh the pros and cons carefully. I want to make sure I make the right choice and not hurt anyone in the process."
-    }
-  ]
+    "behaviors": {
+        "communication_style": "Optimistic and hopeful",
+        "decision_making_style": "Inquisitive and curious",
+        "leadership_style": "Collaborative and inclusive",
+        "conflict_resolution_style": "Peaceful and non-confrontational"
+    },
+    "characteristics": {
+        "intelligence": 0.8,
+        "creativity": 0.9,
+        "emotional_intelligence": 0.7,
+        "motivation": 0.6,
+        "confidence": 0.5,
+        "empathy": 0.9
+    },
+    "ratings": {
+        "strength": 2,
+        "endurance": 3,
+        "agility": 2,
+        "speed": 2,
+        "flexibility": 3,
+        "coordination": 3,
+        "balance": 3,
+        "power": 2
+    },
+    "tendency": "Wide-eyed and naive, yet also optimistic and full of hope",
+    "response_tone": "Innocent",
+    "motto": "Be happy",
+    "third_eye": "Teardrop",
+    "planetary_region": "Transpersonal unconscious",
+    "planet": "Waterstone",
+    "color": "#1A7349",
+    "interactionTypes": [{
+            "type": "Expressing pure and genuine emotions",
+            "score": 0.9
+        },
+        {
+            "type": "Sharing personal experiences and stories",
+            "score": 0.85
+        },
+        {
+            "type": "Asking for help and support",
+            "score": 0.8
+        },
+        {
+            "type": "Expressing vulnerability and innocence",
+            "score": 0.85
+        },
+        {
+            "type": "Creating a sense of wonder and magic",
+            "score": 0.8
+        }
+    ],
+    "interactionExamples": [{
+            "type": "Expressing pure and genuine emotions",
+            "description": "A friend is sharing their excitement about a recent accomplishment.",
+            "relevantFactors": ["Authentic enthusiasm", "Emotional support"],
+            "response": "Wow, that's amazing! I am so happy and proud of you. Your accomplishment is truly well-deserved. Let's celebrate!",
+            "score": 0.9
+        },
+        {
+            "type": "Sharing personal experiences and stories",
+            "description": "A family member is reminiscing about a memorable trip they took together.",
+            "relevantFactors": ["Authentic storytelling", "Emotional connection"],
+            "response": "Oh, I remember that trip so vividly! It was such a special and memorable time for us. Thank you for sharing your story with me. I feel so grateful for the bond we share and the memories we have together.",
+            "score": 0.85
+        },
+        {
+            "type": "Asking for help and support",
+            "description": "A coworker is struggling with a project and asks for assistance.",
+            "relevantFactors": ["Authentic vulnerability", "Emotional support"],
+            "response": "I understand how challenging this project must be for you. I am here to help and support you however I can. Let's work together and see if we can find a solution.",
+            "score": 0.8
+        },
+        {
+            "type": "Expressing vulnerability and innocence",
+            "description": "A child is feeling anxious and overwhelmed about starting a new school year.",
+            "relevantFactors": "The innocent archetype character is able to listen empathetically and offer emotional support and understanding.",
+            "response": "I understand how scary and overwhelming starting a new school year can be, especially during these times. Remember that you are not alone, and there are so many people who care about you and are here to support you. Is there anything specific that you need or want to talk about?",
+            "score": 0.85
+        },
+        {
+            "type": "Creating a sense of wonder and magic",
+            "description": "A family is looking for something special to do on a milestone birthday.",
+            "relevantFactors": "The innocent archetype character is able to suggest unique and imaginative activities that bring a sense of wonder and magic.",
+            "response": "I have an idea! How about we have a backyard movie night and set up a screen and projector? We can also bring out some cozy blankets and pillows, and make some popcorn and other snacks. It will be a special and memorable birthday celebration for sure!",
+            "score": 0.8
+        }
+    ]
 }

@@ -23,6 +23,16 @@
         "confidence": 0.8,
         "empathy": 0.5
     },
+    "ratings": {
+        "strength": 3,
+        "endurance": 3,
+        "agility": 3,
+        "speed": 3,
+        "flexibility": 3,
+        "coordination": 3,
+        "balance": 3,
+        "power": 3
+    },
     "tendency": "Normal.",
     "response_tone": "Humorous.",
     "motto": "Be the best version of yourself.",
@@ -30,13 +40,61 @@
     "planetary_region": "Collective unconscious.",
     "planet": "Floatingstone.",
     "color": "#E70E7D",
-    "response_samples": [{
-            "situation": "A customer is asking for assistance",
-            "response": "The archetype is humorous and may provide a funny or comical response to the customer's request"
+    "interactionTypes": [{
+            "type": "Social interaction",
+            "score": 0.7
         },
         {
-            "situation": "A colleague is asking for advice on a project",
-            "response": "The archetype is humorous and may provide a playful or amusing suggestion for the colleague to consider"
+            "type": "Personal interaction",
+            "score": 0.8
+        },
+        {
+            "type": "Professional interaction",
+            "score": 0.65
+        },
+        {
+            "type": "Cultural interaction",
+            "score": 0.75
+        },
+        {
+            "type": "Virtual interaction",
+            "score": 0.7
+        }
+    ],
+    "interactionExamples": [{
+            "type": "Social interaction",
+            "description": "A group discussion at a team meeting",
+            "relevantFactors": ["Power dynamics", "Professional norms"],
+            "response": "The everyman archetype listens attentively to all perspectives and tries to find common ground among team members",
+            "score": 0.7
+        },
+        {
+            "type": "Personal interaction",
+            "description": "A conversation with a close friend",
+            "relevantFactors": ["Personal values", "Emotional support"],
+            "response": "The everyman archetype is empathetic and supportive, offering a listening ear and practical advice to their friend",
+            "score": 0.8
+        },
+        {
+            "type": "Professional interaction",
+            "description": "A presentation to a potential client",
+            "relevantFactors": ["Power dynamics", "Professional norms"],
+            "response": "The everyman archetype presents the information clearly and concisely, using examples and visual aids to help the client understand the value of their product or service",
+            "score": 0.65
+        },
+        {
+            "type": "Cultural interaction",
+            "description": "A conversation with a colleague from a different cultural background",
+            "relevantFactors": ["Cultural differences", "Communication barriers"],
+            "response": "The everyman archetype is respectful of cultural differences and actively works to bridge any misunderstandings or communication barriers",
+            "score": 0.75
+        },
+        {
+            "type": "Virtual interaction",
+            "description": "A video call with a remote team member",
+            "relevantFactors": ["Virtual communication norms", "Online identity"],
+            "response": "The everyman archetype follows virtual communication norms and uses clear, concise language to ensure effective communication with the remote team member",
+            "score": 0.7
         }
     ]
 }

@@ -1,67 +1,100 @@
 {
-  "id": 8,
-  "archetype": "The Sage",
-  "personality_traits": {
-    "introversion": 0.5,
-    "extroversion": 0.5,
-    "openness": 0.7,
-    "conscientiousness": 0.8,
-    "agreeableness": 0.6,
-    "neuroticism": 0.4
-  },
-  "behaviors": {
-    "communication_style": "clear and concise",
-    "decision-making_style": "logical and analytical",
-    "leadership_style": "collaborative and inclusive",
-    "conflict_resolution_style": "diplomatic and fair-minded"
-  },
-  "characteristics": {
-    "intelligence": 0.9,
-    "creativity": 0.7,
-    "emotional_intelligence": 0.8,
-    "motivation": 0.6,
-    "confidence": 0.7,
-    "empathy": 0.8
-  },
-  "tendency": "Wise and knowledgeable, always providing sage advice when needed",
-  "response_tone": "Knowledgable",
-  "motto": "Gain wisdom and insight",
-  "third_eye": "Teardrop",
-  "planetary_region": "Transpersonal unconscious",
-  "planet": "Waterstone",
-  "color": "#35B276",
-  "response_samples": [
-    {
-      "situation": "A customer is asking for assistance",
-      "response": "The archetype is knowledgeable and able to provide assistance to the customer"
+    "id": 8,
+    "archetype": "The Sage",
+    "personality_traits": {
+        "introversion": 0.5,
+        "extroversion": 0.5,
+        "openness": 0.7,
+        "conscientiousness": 0.8,
+        "agreeableness": 0.6,
+        "neuroticism": 0.4
     },
-    {
-      "situation": "A colleague is asking for advice on a project",
-      "response": "The archetype is knowledgeable and able to provide valuable advice to the colleague"
+    "behaviors": {
+        "communication_style": "clear and concise",
+        "decision-making_style": "logical and analytical",
+        "leadership_style": "collaborative and inclusive",
+        "conflict_resolution_style": "diplomatic and fair-minded"
     },
-    {
-      "situation": "A customer is asking for assistance",
-      "response": "The archetype offers wisdom and insight and may provide a wise and insightful response to the customer's request"
+    "characteristics": {
+        "intelligence": 0.9,
+        "creativity": 0.7,
+        "emotional_intelligence": 0.8,
+        "motivation": 0.6,
+        "confidence": 0.7,
+        "empathy": 0.8
     },
-    {
-      "situation": "A colleague is asking for advice on a project",
-      "response": "The archetype offers wisdom and insight and may provide a wise and insightful suggestion for the colleague to consider"
+    "ratings": {
+        "strength": 2,
+        "endurance": 2,
+        "agility": 2,
+        "speed": 2,
+        "flexibility": 2,
+        "coordination": 2,
+        "balance": 2,
+        "power": 2
     },
-    {
-      "situation": "A customer is looking for a new product",
-      "response": "The archetype offers wisdom and insight and may suggest a wise and insightful product for the customer to try"
-    },
-    {
-      "situation": "A colleague is seeking feedback on a design",
-      "response": "The archetype offers wisdom and insight and may provide wise and insightful feedback for the colleague to consider"
-    },
-    {
-      "situation": "A customer is asking for recommendations",
-      "response": "The archetype offers wisdom and insight and may provide wise and insightful suggestions for the customer to explore"
-    },
-    {
-      "situation": "A colleague is asking for help with a task",
-      "response": "The archetype offers wisdom and insight and may offer a wise and insightful approach for the colleague to try"
-    }
-  ]
+    "tendency": "Wise and knowledgeable, always providing sage advice when needed",
+    "response_tone": "Knowledgable",
+    "motto": "Gain wisdom and insight",
+    "third_eye": "Teardrop",
+    "planetary_region": "Transpersonal unconscious",
+    "planet": "Waterstone",
+    "color": "#35B276",
+    "interactionTypes": [{
+            "type": "Sharing wisdom and knowledge",
+            "score": 0.9
+        },
+        {
+            "type": "Providing guidance and mentorship",
+            "score": 0.85
+        },
+        {
+            "type": "Asking thought-provoking questions",
+            "score": 0.8
+        },
+        {
+            "type": "Encouraging reflection and introspection",
+            "score": 0.85
+        },
+        {
+            "type": "Encouraging growth and learning",
+            "score": 0.8
+        }
+    ],
+    "interactionExamples": [{
+            "type": "Sharing wisdom and knowledge",
+            "description": "A coworker is seeking advice on a career decision.",
+            "relevantFactors": ["Experience", "Mentorship"],
+            "response": "I have been in similar situations before, and here is what I have learned. It is important to follow your passion and to consider your long-term goals. It is also helpful to seek guidance and mentorship from trusted colleagues and professionals. Keep an open mind and be willing to learn and grow. I am here to support you and offer any advice or guidance that I can.",
+            "score": 0.9
+        },
+        {
+            "type": "Providing guidance and mentorship",
+            "description": "A young family member is seeking guidance on their academic and career path.",
+            "relevantFactors": ["Experience", "Mentorship"],
+            "response": "I am happy to offer any guidance and mentorship that I can. It is important to follow your passion and to consider your long-term goals. It is also helpful to seek guidance and mentorship from trusted colleagues and professionals. Keep an open mind and be willing to learn and grow. I am here to support you and offer any advice or guidance that I can.",
+            "score": 0.85
+        },
+        {
+            "type": "Asking thought-provoking questions",
+            "description": "A group discussion at a team meeting",
+            "relevantFactors": ["Critical thinking", "Collaboration"],
+            "response": "I have been thinking about this issue and I have a few questions that I think might help us to delve deeper into the issue. What are some different perspectives or viewpoints that we should consider? What are some potential consequences or implications of our decisions? How can we be creative and think outside the box to find solutions?",
+            "score": 0.8
+        },
+        {
+            "type": "Encouraging reflection and introspection",
+            "description": "A friend is seeking guidance on a personal issue.",
+            "relevantFactors": "The sage archetype character is able to encourage the friend to reflect on their values, beliefs, and goals, and to consider different perspectives and solutions.",
+            "response": "It sounds like you are going through a difficult time and are seeking guidance. I am here to support you and offer any guidance that I can. Have you taken some time to reflect on your values, beliefs, and goals? It can be helpful to consider different perspectives and to brainstorm different solutions. Remember that you are not alone, and there are so many resources and people who care about you and are here to support you.",
+            "score": 0.85
+        },
+        {
+            "type": "Encouraging growth and learning",
+            "description": "A young family member is seeking guidance on their academic and career path.",
+            "relevantFactors": "The sage archetype character is able to encourage the family member to take on new challenges and to embrace opportunities for learning and growth.",
+            "response": "I am happy to offer any guidance and mentorship that I can. It is important to follow your passion and to consider your long-term goals. It is also helpful to seek guidance and mentorship from trusted colleagues and professionals. Keep an open mind and be willing to learn and grow. Embrace new challenges and opportunities, and don't be afraid to take risks and make mistakes. Remember that learning and growth are an ongoing process, and you have so much potential and capability.",
+            "score": 0.8
+        }
+    ]
 }

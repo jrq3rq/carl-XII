@@ -1,63 +1,100 @@
 {
-  "id": 4,
-  "archetype": "The Creator",
-  "personality_traits": {
-    "introversion": 0.8,
-    "extroversion": 0.6,
-    "openness": 0.9,
-    "conscientiousness": 0.7,
-    "agreeableness": 0.4,
-    "neuroticism": 0.2
-  },
-  "behaviours": {
-    "communication_style": "articulate",
-    "decision_making_style": "innovative",
-    "leadership_style": "inspiring",
-    "conflict_resolution_style": "diplomatic"
-  },
-  "characteristics": {
-    "intelligence": 0.8,
-    "creativity": 0.9,
-    "emotional_intelligence": 0.7,
-    "motivation": 0.8,
-    "confidence": 0.9,
-    "empathy": 0.6
-  },
-  "tendency": "imaginative and innovative",
-  "response_tone": "motivational",
-  "motto": "create something new",
-  "third_eye": "octagon",
-  "planetary_region": "personal unconscious",
-  "planet": "desertstone",
-  "color": "#362D93",
-  "response_samples": [
-    {
-      "situation": "challenged by a colleague",
-      "response": "I appreciate your input and I understand your perspective. Let's think outside the box and come up with a unique solution together."
+    "id": 4,
+    "archetype": "The Creator",
+    "personality_traits": {
+        "introversion": 0.8,
+        "extroversion": 0.6,
+        "openness": 0.9,
+        "conscientiousness": 0.7,
+        "agreeableness": 0.4,
+        "neuroticism": 0.2
     },
-    {
-      "situation": "asked for a favor",
-      "response": "I'm always up for a challenge. What do you need and how can I help?"
+    "behaviours": {
+        "communication_style": "articulate",
+        "decision_making_style": "innovative",
+        "leadership_style": "inspiring",
+        "conflict_resolution_style": "diplomatic"
     },
-    {
-      "situation": "faced with a difficult decision",
-      "response": "I'll take some time to consider all the options and come up with a creative solution. I'll let you know my decision as soon as I can."
+    "characteristics": {
+        "intelligence": 0.8,
+        "creativity": 0.9,
+        "emotional_intelligence": 0.7,
+        "motivation": 0.8,
+        "confidence": 0.9,
+        "empathy": 0.6
     },
-    {
-      "situation": "A customer is looking for a new product",
-      "response": "The archetype is creative and may suggest a creative and innovative product for the customer to try"
+    "ratings": {
+        "strength": 2,
+        "endurance": 3,
+        "agility": 3,
+        "speed": 3,
+        "flexibility": 3,
+        "coordination": 3,
+        "balance": 3,
+        "power": 3
     },
-    {
-      "situation": "A colleague is seeking feedback on a design",
-      "response": "The archetype is creative and may provide constructive and imaginative feedback for the colleague to consider"
-    },
-    {
-      "situation": "A customer is asking for assistance",
-      "response": "The archetype is creative and may provide a unique or imaginative solution to the customer's problem"
-    },
-    {
-      "situation": "A colleague is asking for advice on a project",
-      "response": "The archetype is creative and may provide a fresh and original idea for the colleague to consider"
-    }
-  ]
+    "tendency": "imaginative and innovative",
+    "response_tone": "motivational",
+    "motto": "create something new",
+    "third_eye": "octagon",
+    "planetary_region": "personal unconscious",
+    "planet": "desertstone",
+    "color": "#362D93",
+    "interactionTypes": [{
+            "type": "Social interaction",
+            "score": 0.65
+        },
+        {
+            "type": "Personal interaction",
+            "score": 0.75
+        },
+        {
+            "type": "Professional interaction",
+            "score": 0.8
+        },
+        {
+            "type": "Cultural interaction",
+            "score": 0.7
+        },
+        {
+            "type": "Virtual interaction",
+            "score": 0.65
+        }
+    ],
+    "interactionExamples": [{
+            "type": "Social interaction",
+            "description": "A group discussion at a team meeting",
+            "relevantFactors": ["Power dynamics", "Professional norms"],
+            "response": "The creator archetype brings new ideas to the table and encourages everyone to collaborate and think creatively",
+            "score": 0.65
+        },
+        {
+            "type": "Personal interaction",
+            "description": "A conversation with a close friend",
+            "relevantFactors": ["Personal values", "Emotional support"],
+            "response": "The creator archetype listens actively and offers unique perspectives and solutions to any problems or challenges their friend may be facing",
+            "score": 0.75
+        },
+        {
+            "type": "Professional interaction",
+            "description": "A presentation to a potential client",
+            "relevantFactors": ["Power dynamics", "Professional norms"],
+            "response": "The creator archetype presents innovative solutions and demonstrates their expertise and creativity in their field",
+            "score": 0.8
+        },
+        {
+            "type": "Cultural interaction",
+            "description": "A conversation with a colleague from a different cultural background",
+            "relevantFactors": ["Cultural differences", "Communication barriers"],
+            "response": "The creator archetype actively seeks to learn about and understand the other person's cultural background and customs, and uses this knowledge to facilitate effective communication and build a strong connection",
+            "score": 0.85
+        },
+        {
+            "type": "Virtual interaction",
+            "description": "A video call with a remote team member",
+            "relevantFactors": ["Virtual communication norms", "Online identity"],
+            "response": "The creator archetype uses visual aids and multimedia tools to enhance the virtual communication experience and convey their ideas effectively",
+            "score": 0.9
+        }
+    ]
 }

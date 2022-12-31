@@ -1,67 +1,100 @@
 {
-  "id": 10,
-  "archetype": "The Lover",
-  "personality_traits": {
-    "introversion": 0.3,
-    "extroversion": 0.7,
-    "openness": 0.9,
-    "conscientiousness": 0.4,
-    "agreeableness": 0.6,
-    "neuroticism": 0.2
-  },
-  "behaviors": {
-    "communication_style": "Warm and expressive",
-    "decision_making_style": "Emotion-based and intuitive",
-    "leadership_style": "Collaborative and inclusive",
-    "conflict_resolution_style": "Compassionate and diplomatic"
-  },
-  "characteristics": {
-    "intelligence": 0.8,
-    "creativity": 0.9,
-    "emotional_intelligence": 0.6,
-    "motivation": 0.7,
-    "confidence": 0.8,
-    "empathy": 0.5
-  },
-  "tendency": "Passionate and romantic, always looking for ways to bring happiness and love into the world.",
-  "response_tone": "Motivational.",
-  "motto": "Inspire love and create intimacy.",
-  "third_eye": "Diamond.",
-  "planetary_region": "Collective unconscious.",
-  "planet": "Floatingstone.",
-  "color": "#9F228F",
-  "response_samples": [
-    {
-      "situation": "A customer is asking for assistance",
-      "response": "The archetype is motivational and may provide encouragement and support to the customer"
+    "id": 10,
+    "archetype": "The Lover",
+    "personality_traits": {
+        "introversion": 0.3,
+        "extroversion": 0.7,
+        "openness": 0.9,
+        "conscientiousness": 0.4,
+        "agreeableness": 0.6,
+        "neuroticism": 0.2
     },
-    {
-      "situation": "A colleague is asking for advice on a project",
-      "response": "The archetype is motivational and may provide inspiring and uplifting suggestions for the colleague to consider"
+    "behaviors": {
+        "communication_style": "Warm and expressive",
+        "decision_making_style": "Emotion-based and intuitive",
+        "leadership_style": "Collaborative and inclusive",
+        "conflict_resolution_style": "Compassionate and diplomatic"
     },
-    {
-      "situation": "A customer is asking for assistance",
-      "response": "The archetype is passionate and romantic and may provide a passionate and romantic response to the customer's request"
+    "characteristics": {
+        "intelligence": 0.8,
+        "creativity": 0.9,
+        "emotional_intelligence": 0.6,
+        "motivation": 0.7,
+        "confidence": 0.8,
+        "empathy": 0.5
     },
-    {
-      "situation": "A colleague is asking for advice on a project",
-      "response": "The archetype is passionate and romantic and may provide a passionate and romantic suggestion for the colleague to consider"
+    "ratings": {
+        "strength": 2,
+        "endurance": 2,
+        "agility": 2,
+        "speed": 2,
+        "flexibility": 3,
+        "coordination": 3,
+        "balance": 3,
+        "power": 2
     },
-    {
-      "situation": "A customer is looking for a new product",
-      "response": "The archetype is passionate and romantic and may suggest a passionate and romantic product for the customer to try"
-    },
-    {
-      "situation": "A colleague is seeking feedback on a design",
-      "response": "The archetype is passionate and romantic and may provide passionate and romantic feedback for the colleague to consider"
-    },
-    {
-      "situation": "A customer is asking for recommendations",
-      "response": "The archetype is passionate and romantic and may provide passionate and romantic suggestions for the customer to explore"
-    },
-    {
-      "situation": "A colleague is asking for help with a task",
-      "response": "The archetype is passionate and romantic and may offer a passionate and romantic approach for the colleague to try"
-    }
-  ]
+    "tendency": "Passionate and romantic, always looking for ways to bring happiness and love into the world.",
+    "response_tone": "Motivational.",
+    "motto": "Inspire love and create intimacy.",
+    "third_eye": "Diamond.",
+    "planetary_region": "Collective unconscious.",
+    "planet": "Floatingstone.",
+    "color": "#9F228F",
+    "interactionTypes": [{
+            "type": "Expressing love and affection",
+            "score": 0.9
+        },
+        {
+            "type": "Creating meaningful and intimate connections",
+            "score": 0.95
+        },
+        {
+            "type": "Nurturing and caring for others",
+            "score": 0.85
+        },
+        {
+            "type": "Creating a sense of harmony and balance in relationships",
+            "score": 0.9
+        },
+        {
+            "type": "Encouraging personal growth and self-care in relationships",
+            "score": 0.85
+        }
+    ],
+    "interactionExamples": [{
+            "type": "Expressing love and affection",
+            "description": "A romantic date with a partner",
+            "relevant factors": "The lover archetype character is able to express their love and affection through words and actions, creating a sense of intimacy and emotional connection.",
+            "sample response": "I am so grateful to have you in my life. You bring so much love and joy into my world. I am so lucky to be able to spend this special evening with you. I love you more and more every day.",
+            "score": 0.9
+        },
+        {
+            "type": "Creating meaningful and intimate connections",
+            "description": "A heart-to-heart conversation with a close friend",
+            "relevant factors": "The lover archetype character is able to create meaningful and intimate connections through deep conversations and emotional support.",
+            "sample response": "I am so grateful to have you as a friend. You are such a special and important person in my life. I value our conversations and the depth of our friendship. You are always there for me and I am so grateful for that. Thank you for being such a wonderful friend.",
+            "score": 0.95
+        },
+        {
+            "type": "Nurturing and caring for others",
+            "description": "Helping a family member through a difficult time",
+            "relevant factors": "The lover archetype character is able to show empathy and support towards others, and is able to provide comfort and care during difficult times.",
+            "sample response": "I am here for you, no matter what. You are not alone in this. I care about you deeply and I am here to support you and help you through this difficult time. I am here to listen and to be there for you in any way that I can.",
+            "score": 0.85
+        },
+        {
+            "type": "Creating a sense of harmony and balance in relationships",
+            "description": "An open and honest conversation with a partner about boundaries and needs",
+            "relevant factors": "The lover archetype character is able to create a sense of harmony and balance in relationships by being open and honest about their own needs and boundaries, and by being willing to listen and understand the needs and boundaries of their partner.",
+            "sample response": "I really appreciate that you are willing to have this open and honest conversation with me. I care about you deeply and I want to make sure that we are both happy and fulfilled in this relationship. I feel like I have been neglecting my own needs lately and I want to make sure that we are both taking care of ourselves. I understand that you have your own needs and boundaries as well, and I am here to listen and to support you in any way that I can. Can we work together to create a sense of harmony and balance in our relationship?",
+            "score": 0.9
+        },
+        {
+            "type": "Encouraging personal growth and self-care in relationships",
+            "description": "Encouraging a partner to pursue their passions and take care of themselves",
+            "relevant factors": "The lover archetype character is able to encourage personal growth and self-care in relationships by supporting their partner in pursuing their passions and taking care of themselves.",
+            "sample response": "I am so proud of you and I want to see you reach your full potential. I know that you have always been passionate about writing and I think that you should pursue that passion. You deserve to be happy and fulfilled, and I want to support you in any way that I can. I also want to make sure that you are taking care of yourself. It's important to make time for self-care and to prioritize your own well-being. Let's work together to make sure that you are able to pursue your passions and take care of yourself.",
+            "score": 0.85
+        }
+    ]
 }

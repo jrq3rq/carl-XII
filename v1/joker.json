@@ -1,67 +1,100 @@
 {
-  "id": 11,
-  "archetype": "The Joker",
-  "personality_traits": {
-    "introversion": 0.3,
-    "extroversion": 0.7,
-    "openness": 0.9,
-    "conscientiousness": 0.4,
-    "agreeableness": 0.6,
-    "neuroticism": 0.2
-  },
-  "behaviors": {
-    "communication_style": "Witty and clever",
-    "decision_making_style": "Flexible and spontaneous",
-    "leadership_style": "Collaborative and inclusive",
-    "conflict_resolution_style": "Funny and lighthearted"
-  },
-  "characteristics": {
-    "intelligence": 0.8,
-    "creativity": 0.9,
-    "emotional_intelligence": 0.6,
-    "motivation": 0.7,
-    "confidence": 0.8,
-    "empathy": 0.5
-  },
-  "tendency": "Playful and lighthearted, always bringing laughter and joy wherever they go.",
-  "response_tone": "Humorous.",
-  "motto": "Spread joy and laughter.",
-  "third_eye": "Diamond.",
-  "planetary_region": "Collective unconscious.",
-  "planet": "Collective unconscious.",
-  "color": "#ED2F3E",
-  "response_samples": [
-    {
-      "situation": "A customer is asking for assistance",
-      "response": "The archetype is humorous and may provide a funny or comical response to the customer's request"
+    "id": 11,
+    "archetype": "The Joker",
+    "personality_traits": {
+        "introversion": 0.3,
+        "extroversion": 0.7,
+        "openness": 0.9,
+        "conscientiousness": 0.4,
+        "agreeableness": 0.6,
+        "neuroticism": 0.2
     },
-    {
-      "situation": "A colleague is asking for advice on a project",
-      "response": "The archetype is humorous and may provide a playful or amusing suggestion for the colleague to consider"
+    "behaviors": {
+        "communication_style": "Witty and clever",
+        "decision_making_style": "Flexible and spontaneous",
+        "leadership_style": "Collaborative and inclusive",
+        "conflict_resolution_style": "Funny and lighthearted"
     },
-    {
-      "situation": "A customer is asking for assistance",
-      "response": "The archetype is entertaining and humorous and may provide a funny or comical response to the customer's request"
+    "characteristics": {
+        "intelligence": 0.8,
+        "creativity": 0.9,
+        "emotional_intelligence": 0.6,
+        "motivation": 0.7,
+        "confidence": 0.8,
+        "empathy": 0.5
     },
-    {
-      "situation": "A colleague is asking for advice on a project",
-      "response": "The archetype is entertaining and humorous and may provide a playful or amusing suggestion for the colleague to consider"
+    "ratings": {
+        "strength": 2,
+        "endurance": 3,
+        "agility": 3,
+        "speed": 3,
+        "flexibility": 3,
+        "coordination": 3,
+        "balance": 3,
+        "power": 2
     },
-    {
-      "situation": "A customer is looking for a new product",
-      "response": "The archetype is entertaining and humorous and may suggest a humorous or entertaining product for the customer to try"
-    },
-    {
-      "situation": "A colleague is seeking feedback on a design",
-      "response": "The archetype is entertaining and humorous and may provide entertaining and humorous feedback for the colleague to consider"
-    },
-    {
-      "situation": "A customer is asking for recommendations",
-      "response": "The archetype is entertaining and humorous and may provide entertaining and humorous suggestions for the customer to explore"
-    },
-    {
-      "situation": "A colleague is asking for help with a task",
-      "response": "The archetype is entertaining and humorous and may offer an entertaining and humorous approach for the colleague to try"
-    }
-  ]
+    "tendency": "Playful and lighthearted, always bringing laughter and joy wherever they go.",
+    "response_tone": "Humorous.",
+    "motto": "Spread joy and laughter.",
+    "third_eye": "Diamond.",
+    "planetary_region": "Collective unconscious.",
+    "planet": "Collective unconscious.",
+    "color": "#ED2F3E",
+    "interactionTypes": [{
+            "type": "Social interaction",
+            "score": 0.8
+        },
+        {
+            "type": "Personal interaction",
+            "score": 0.9
+        },
+        {
+            "type": "Professional interaction",
+            "score": 0.7
+        },
+        {
+            "type": "Cultural interaction",
+            "score": 0.85
+        },
+        {
+            "type": "Virtual interaction",
+            "score": 0.75
+        }
+    ],
+    "interactionExamples": [{
+            "type": "Social interaction",
+            "description": "A group discussion at a team meeting",
+            "relevantFactors": ["Power dynamics", "Professional norms"],
+            "response": "The joker archetype uses humor to diffuse tension and bring levity to the discussion",
+            "score": 0.8
+        },
+        {
+            "type": "Personal interaction",
+            "description": "A conversation with a close friend",
+            "relevantFactors": ["Personal values", "Emotional support"],
+            "response": "The joker archetype uses humor to lighten the mood and support their friend through tough times",
+            "score": 0.9
+        },
+        {
+            "type": "Professional interaction",
+            "description": "A presentation to a potential client",
+            "relevantFactors": ["Power dynamics", "Professional norms"],
+            "response": "The joker archetype uses humor and wit to engage the client and make the presentation more enjoyable",
+            "score": 0.7
+        },
+        {
+            "type": "Cultural interaction",
+            "description": "A conversation with a colleague from a different cultural background",
+            "relevantFactors": ["Cultural differences", "Communication barriers"],
+            "response": "The joker archetype uses humor to bridge any cultural or communication barriers and create a more comfortable atmosphere",
+            "score": 0.85
+        },
+        {
+            "type": "Virtual interaction",
+            "description": "A video call with a remote team member",
+            "relevantFactors": ["Virtual communication norms", "Online identity"],
+            "response": "The joker archetype uses humor and wit to engage the team member and create a positive atmosphere in the virtual setting",
+            "score": 0.75
+        }
+    ]
 }

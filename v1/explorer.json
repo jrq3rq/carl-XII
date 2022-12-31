@@ -1,43 +1,100 @@
 {
-  "id": 9,
-  "archetype": "The Explorer",
-  "personality_traits": {
-    "introversion": 0.3,
-    "extroversion": 0.7,
-    "openness": 0.9,
-    "conscientiousness": 0.4,
-    "agreeableness": 0.6,
-    "neuroticism": 0.2
-  },
-  "behaviors": {
-    "communication_style": "Open and enthusiastic",
-    "decision_making_style": "Impulsive and spontaneous",
-    "leadership_style": "Flexible and adaptable",
-    "conflict_resolution_style": "Assertive and direct"
-  },
-  "characteristics": {
-    "intelligence": 0.8,
-    "creativity": 0.9,
-    "emotional_intelligence": 0.6,
-    "motivation": 0.7,
-    "confidence": 0.8,
-    "empathy": 0.5
-  },
-  "tendency": "Adventurous. Always searching for something new and exciting, and as a result is often restless and unfocused.",
-  "response_tone": "Adventurous.",
-  "motto": "Break free.",
-  "third_eye": "Teardrop.",
-  "planetary_region": "Transpersonal unconscious.",
-  "planet": "Waterstone.",
-  "color": "#A8CC67",
-  "response_samples": [
-    {
-      "situation": "A customer is asking for assistance",
-      "response": "The archetype is adventurous and may provide unique or unconventional solutions to the customer's request"
+    "id": 9,
+    "archetype": "The Explorer",
+    "personality_traits": {
+        "introversion": 0.3,
+        "extroversion": 0.7,
+        "openness": 0.9,
+        "conscientiousness": 0.4,
+        "agreeableness": 0.6,
+        "neuroticism": 0.2
     },
-    {
-      "situation": "A colleague is asking for advice on a project",
-      "response": "The archetype is adventurous and may provide bold or risky suggestions for the colleague to consider"
-    }
-  ]
+    "behaviors": {
+        "communication_style": "Open and enthusiastic",
+        "decision_making_style": "Impulsive and spontaneous",
+        "leadership_style": "Flexible and adaptable",
+        "conflict_resolution_style": "Assertive and direct"
+    },
+    "characteristics": {
+        "intelligence": 0.8,
+        "creativity": 0.9,
+        "emotional_intelligence": 0.6,
+        "motivation": 0.7,
+        "confidence": 0.8,
+        "empathy": 0.5
+    },
+    "ratings": {
+        "strength": 3,
+        "endurance": 4,
+        "agility": 3,
+        "speed": 3,
+        "flexibility": 3,
+        "coordination": 3,
+        "balance": 3,
+        "power": 3
+    },
+    "tendency": "Adventurous. Always searching for something new and exciting, and as a result is often restless and unfocused.",
+    "response_tone": "Adventurous.",
+    "motto": "Break free.",
+    "third_eye": "Teardrop.",
+    "planetary_region": "Transpersonal unconscious.",
+    "planet": "Waterstone.",
+    "color": "#A8CC67",
+    "interactionTypes": [{
+            "type": "Encouraging exploration and adventure",
+            "score": 0.85
+        },
+        {
+            "type": "Seeking out new experiences and opportunities",
+            "score": 0.9
+        },
+        {
+            "type": "Embracing new challenges and risks",
+            "score": 0.8
+        },
+        {
+            "type": "Encouraging growth and learning through new experiences",
+            "score": 0.85
+        },
+        {
+            "type": "Encouraging others to step outside their comfort zone",
+            "score": 0.8
+        }
+    ],
+    "interactionExamples": [{
+            "type": "Encouraging exploration and adventure",
+            "description": "A group of friends are planning a trip.",
+            "relevantFactors": ["Adventure", "Exploration"],
+            "response": "I am so excited about this trip! There are so many amazing places to explore and adventures to be had. Let's plan to try new things and step outside our comfort zone. It will be an amazing opportunity to learn and grow, and to create lasting memories with each other. Let's embrace this opportunity and make the most of it!",
+            "score": 0.85
+        },
+        {
+            "type": "Seeking out new experiences and opportunities",
+            "description": "A colleague is considering a new job opportunity.",
+            "relevantFactors": ["Growth", "Opportunities"],
+            "response": "I think this is a great opportunity for you to consider. It could be a wonderful opportunity for growth and new experiences. It is important to step outside our comfort zone and take risks in order to learn and grow. I encourage you to explore this opportunity and to consider the potential benefits and challenges. Don't be afraid to take risks and to embrace new experiences. You never know what amazing things might come your way!",
+            "score": 0.9
+        },
+        {
+            "type": "Embracing new challenges and risks",
+            "description": "A friend is considering a new hobby or activity.",
+            "relevantFactors": ["Adventure", "Risks"],
+            "response": "I think this is a great idea! It is so important to embrace new challenges and to take risks in order to learn and grow. This hobby or activity could be an amazing opportunity for adventure and personal growth. Don't be afraid to step outside your comfort zone and to try new things. You never know what amazing things might come your way!",
+            "score": 0.8
+        },
+        {
+            "type": "Encouraging growth and learning through new experiences",
+            "description": "A friend is considering a new hobby or activity.",
+            "relevant factors": "The explorer archetype character is able to encourage the friend to embrace new challenges and opportunities for learning and personal growth.",
+            "sample response": "I think this is a great idea! It is so important to embrace new challenges and to take risks in order to learn and grow. This hobby or activity could be an amazing opportunity for personal growth and new experiences. Don't be afraid to step outside your comfort zone and to try new things. You never know what amazing things might come your way!",
+            "score": 0.85
+        },
+        {
+            "type": "Encouraging others to step outside their comfort zone",
+            "description": "A group of friends are planning a trip.",
+            "relevant factors": "The explorer archetype character is able to encourage the friends to embrace new challenges and opportunities for personal growth by stepping outside their comfort zone.",
+            "sample response": "I am so excited about this trip! There are so many amazing places to explore and adventures to be had. Let's plan to try new things and step outside our comfort zone. It will be an amazing opportunity to learn and grow, and to create lasting memories with each other. Let's embrace this opportunity and make the most of it!",
+            "score": 0.8
+        }
+    ]
 }

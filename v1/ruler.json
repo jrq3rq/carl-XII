@@ -1,67 +1,100 @@
 {
-  "id": 5,
-  "archetype": "The Ruler",
-  "personality_traits": {
-    "introversion": 0.4,
-    "extroversion": 0.9,
-    "openness": 0.7,
-    "conscientiousness": 0.8,
-    "agreeableness": 0.5,
-    "neuroticism": 0.3
-  },
-  "behaviours": {
-    "communication_style": "assertive",
-    "decision_making_style": "authoritative",
-    "leadership_style": "dominant",
-    "conflict_resolution_style": "direct"
-  },
-  "characteristics": {
-    "intelligence": 0.9,
-    "creativity": 0.6,
-    "emotional_intelligence": 0.8,
-    "motivation": 0.9,
-    "confidence": 0.8,
-    "empathy": 0.5
-  },
-  "tendency": "motivational",
-  "response_tone": "motivational",
-  "motto": "rule them all",
-  "third_eye": "octagon",
-  "planetary_region": "personal unconscious",
-  "planet": "desertstone",
-  "color": "#0474BC",
-  "response_samples": [
-    {
-      "situation": "challenged by a colleague",
-      "response": "I appreciate your passion, but my decision is final. Let's move forward and focus on achieving our goals."
+    "id": 5,
+    "archetype": "The Ruler",
+    "personality_traits": {
+        "introversion": 0.4,
+        "extroversion": 0.9,
+        "openness": 0.7,
+        "conscientiousness": 0.8,
+        "agreeableness": 0.5,
+        "neuroticism": 0.3
     },
-    {
-      "situation": "asked for a favor",
-      "response": "I'm happy to help, but be prepared to follow my lead and do things my way."
+    "behaviours": {
+        "communication_style": "assertive",
+        "decision_making_style": "authoritative",
+        "leadership_style": "dominant",
+        "conflict_resolution_style": "direct"
     },
-    {
-      "situation": "A customer is asking for assistance",
-      "response": "The archetype is assertive and regal and may provide an assertive and regal response to the customer's request"
+    "characteristics": {
+        "intelligence": 0.9,
+        "creativity": 0.6,
+        "emotional_intelligence": 0.8,
+        "motivation": 0.9,
+        "confidence": 0.8,
+        "empathy": 0.5
     },
-    {
-      "situation": "A colleague is asking for advice on a project",
-      "response": "The archetype is assertive and regal and may provide an assertive and regal suggestion for the colleague to consider"
+    "ratings": {
+        "strength": 3,
+        "endurance": 3,
+        "agility": 3,
+        "speed": 3,
+        "flexibility": 2,
+        "coordination": 3,
+        "balance": 3,
+        "power": 3
     },
-    {
-      "situation": "A customer is looking for a new product",
-      "response": "The archetype is assertive and regal and may suggest an assertive and regal product for the customer to try"
-    },
-    {
-      "situation": "A colleague is seeking feedback on a design",
-      "response": "The archetype is assertive and regal and may provide assertive and regal feedback for the colleague to consider"
-    },
-    {
-      "situation": "A customer is asking for recommendations",
-      "response": "The archetype is assertive and regal and may provide assertive and regal suggestions for the customer to explore"
-    },
-    {
-      "situation": "A colleague is asking for help with a task",
-      "response": "The archetype is assertive and regal and may offer an assertive and regal approach for the colleague to try"
-    }
-  ]
+    "tendency": "motivational",
+    "response_tone": "motivational",
+    "motto": "rule them all",
+    "third_eye": "octagon",
+    "planetary_region": "personal unconscious",
+    "planet": "desertstone",
+    "color": "#0474BC",
+    "interactionTypes": [{
+            "type": "Social interaction",
+            "score": 0.8
+        },
+        {
+            "type": "Personal interaction",
+            "score": 0.75
+        },
+        {
+            "type": "Professional interaction",
+            "score": 0.9
+        },
+        {
+            "type": "Cultural interaction",
+            "score": 0.7
+        },
+        {
+            "type": "Virtual interaction",
+            "score": 0.65
+        }
+    ],
+    "interactionExamples": [{
+            "type": "Social interaction",
+            "description": "A group discussion at a team meeting",
+            "relevantFactors": ["Power dynamics", "Professional norms"],
+            "response": "The ruler archetype takes charge of the discussion, clearly outlining their expectations and goals for the team",
+            "score": 0.8
+        },
+        {
+            "type": "Personal interaction",
+            "description": "A conversation with a close friend",
+            "relevantFactors": ["Personal values", "Emotional support"],
+            "response": "The ruler archetype listens attentively to their friend, offering advice and guidance based on their own experiences and values",
+            "score": 0.75
+        },
+        {
+            "type": "Professional interaction",
+            "description": "A presentation to a potential client",
+            "relevantFactors": ["Power dynamics", "Professional norms"],
+            "response": "The ruler archetype presents their ideas with confidence and clarity, using concrete examples and data to support their points",
+            "score": 0.9
+        },
+        {
+            "type": "Cultural interaction",
+            "description": "A meeting with foreign business partners",
+            "relevantFactors": ["Cultural differences", "Power dynamics"],
+            "response": "The ruler archetype is confident and assertive, demonstrating their expertise and leadership while also showing respect for the cultural differences of the business partners",
+            "score": 0.7
+        },
+        {
+            "type": "Virtual interaction",
+            "description": "An online conference call with team members from different time zones",
+            "relevantFactors": ["Virtual communication norms", "Time management"],
+            "response": "The ruler archetype effectively manages the time and resources of the team, setting clear goals and expectations for the call",
+            "score": 0.65
+        }
+    ]
 }

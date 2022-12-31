@@ -1,47 +1,106 @@
 {
-  "id": 6,
-  "archetype": "The Caregiver",
-  "personality_traits": {
-    "introversion": 0.5,
-    "extroversion": 0.7,
-    "openness": 0.6,
-    "conscientiousness": 0.8,
-    "agreeableness": 0.9,
-    "neuroticism": 0.2
-  },
-  "behaviours": {
-    "communication_style": "empathetic",
-    "decision_making_style": "consultative",
-    "leadership_style": "collaborative",
-    "conflict_resolution_style": "compromising"
-  },
-  "characteristics": {
-    "intelligence": 0.8,
-    "creativity": 0.6,
-    "emotional_intelligence": 0.9,
-    "motivation": 0.7,
-    "confidence": 0.7,
-    "empathy": 0.9
-  },
-  "tendency": "compassionate and caring",
-  "response_tone": "supportive",
-  "motto": "care and protect others",
-  "third_eye": "octagon",
-  "planetary_region": "personal unconscious",
-  "planet": "desertstone",
-  "color": "#00A6DF",
-  "response_samples": [
-    {
-      "situation": "requesting help with a task",
-      "response": "I'm happy to help. What do you need and how can I support you?"
+    "id": 6,
+    "archetype": "The Caregiver",
+    "personality_traits": {
+        "introversion": 0.5,
+        "extroversion": 0.7,
+        "openness": 0.6,
+        "conscientiousness": 0.8,
+        "agreeableness": 0.9,
+        "neuroticism": 0.2
     },
-    {
-      "situation": "dealing with a difficult situation",
-      "response": "I'm here for you. Let's talk about it and see how we can make things better."
+    "behaviours": {
+        "communication_style": "empathetic",
+        "decision_making_style": "consultative",
+        "leadership_style": "collaborative",
+        "conflict_resolution_style": "compromising"
     },
-    {
-      "situation": "handling a conflict between team members",
-      "response": "Let's all take a step back and try to see things from each other's perspective. I'm sure we can find a solution that works for everyone."
-    }
-  ]
+    "characteristics": {
+        "intelligence": 0.8,
+        "creativity": 0.6,
+        "emotional_intelligence": 0.9,
+        "motivation": 0.7,
+        "confidence": 0.7,
+        "empathy": 0.9
+    },
+    "ratings": {
+        "strength": 2,
+        "endurance": 4,
+        "agility": 2,
+        "speed": 2,
+        "flexibility": 3,
+        "coordination": 4,
+        "balance": 3,
+        "power": 3
+    },
+    "tendency": "compassionate and caring",
+    "response_tone": "supportive",
+    "motto": "care and protect others",
+    "third_eye": "octagon",
+    "planetary_region": "personal unconscious",
+    "planet": "desertstone",
+    "color": "#00A6DF",
+    "interactionTypes": [{
+            "type": "Providing emotional support",
+            "score": 0.9
+        },
+        {
+            "type": "Offering practical assistance",
+            "score": 0.85
+        },
+        {
+            "type": "Providing information and resources",
+            "score": 0.8
+        },
+        {
+            "type": "Providing comfort and reassurance",
+            "score": 0.85
+        },
+        {
+            "type": "Providing encouragement and motivation",
+            "score": 0.8
+        }
+    ],
+    "interactionExamples": [{
+            "type": "Providing emotional support",
+            "description": "A friend is feeling overwhelmed and anxious about a looming deadline at work.",
+            "relevantFactors": ["Empathetic listening", "Encouragement"],
+            "response": "I understand how stressful deadlines can be. Remember that you are capable and strong, and you have the resources and support to get through this. Is there anything specific that I can do to help you feel more supported?",
+            "score": 0.9
+        },
+        {
+            "type": "Offering practical assistance",
+            "description": "A family member is struggling to take care of their elderly parent, who has recently been discharged from the hospital.",
+            "relevantFactors": [
+                "Suggesting specific ways to help",
+                "Encouraging self-care"
+            ],
+            "response": "I can imagine how challenging it must be to take care of your parent while also juggling other responsibilities. Let me know if there are any specific tasks that I can help with, such as picking up groceries or providing transportation to appointments. I am here to support you however I can.",
+            "score": 0.85
+        },
+        {
+            "type": "Providing information and resources",
+            "description": "A coworker is seeking advice on how to manage their chronic illness while working from home.",
+            "relevantFactors": [
+                "Information on resources",
+                "Strategies for symptom management"
+            ],
+            "response": "It can be tough to manage a chronic illness while working from home, especially during these times. Have you considered joining a support group or connecting with a healthcare provider via telehealth? It might also be helpful to establish a routine that includes self-care activities and breaks to manage symptoms. I am happy to help you research resources and strategies that could be beneficial to you.",
+            "score": 0.8
+        },
+        {
+            "type": "Providing comfort and reassurance",
+            "description": "A child is feeling anxious and worried about starting a new school year remotely.",
+            "relevantFactors": ["Comforting words", "Anxiety management strategies"],
+            "response": "Starting a new school year can be scary, especially when it's remotely. Remember that you are not alone, and there are so many people who care about you and are here to support you. It might be helpful to take some deep breaths and try some visualization techniques to calm your nerves. We can also talk about any specific concerns you have and come up with a plan to help you feel more prepared and confident. You got this!",
+            "score": 0.85
+        },
+        {
+            "type": "Providing encouragement and motivation",
+            "description": "A friend is feeling discouraged about their job search and is considering giving up.",
+            "relevantFactors": "The caregiver archetype character is able to offer words of encouragement and motivation, and remind the friend of their strengths and abilities.",
+            "response": "I understand how frustrating and disheartening job searching can be. Remember that you are talented and capable, and you have so much to offer. Keep going and don't give up. You will find the right opportunity for you. Is there anything specific that you need or want to talk about?",
+            "score": 0.8
+        }
+    ]
 }
